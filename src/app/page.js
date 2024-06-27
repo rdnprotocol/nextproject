@@ -1,12 +1,12 @@
+import { About } from "@/components/about";
+import { Landing } from "@/components/landing";
 import Image from "next/image";
-import { Navbar } from "./components/navbar";
-import { Landing } from "./components/landing";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Landing />
+      <About />
     </>
   );
 }
